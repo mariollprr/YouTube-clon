@@ -89,12 +89,44 @@ img {
     height: var(--header-height);
     z-index: var(--z-fixed);
 }
+
 .main-header .start .action-button{
     margin-right: 1rem;
 }
 
 .main-header .logo {
     width: 6rem;
+}
+
+.main-header .middle {
+    flex-basis: 720px;
+    padding: 0 2rem;
+}
+
+.main-header .form-search {
+    flex-grow: 1;  
+    align-items: stretch;
+}
+
+.main-header .input {
+    flex-grow: 1; 
+    padding: 0.5rem;
+    border: 1px solid var(--border-color); 
+    border-right: 0;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+.main-header .submit {
+    padding: 0 1.5rem;
+    border: 1px solid var(--border-color); 
+    color: var(--text-color-alt);
+    font-size: 1.25rem;
+    border-radius: 0  var(--border-radius) var(--border-radius) 0;
+    cursor: pointer;
+}
+
+.main-header .user {
+    padding: 0 1rem;
 }
 
 /* --- User avatar --- */
